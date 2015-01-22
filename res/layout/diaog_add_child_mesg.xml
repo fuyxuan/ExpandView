@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <CheckBox
+        android:id="@+id/checkBoxA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="A"
+        android:textSize="15pt" />
+
+    <CheckBox
+        android:id="@+id/checkBoxB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxA"
+        android:layout_centerHorizontal="true"
+        android:text="B"
+        android:textSize="15pt" />
+
+    <EditText
+        android:id="@+id/editAddChild"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonAddChildMesg"
+        android:layout_below="@id/checkBoxB" />
+
+    <Button
+        android:id="@+id/buttonAddChildMesg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editAddChild"
+        android:layout_centerHorizontal="true"
+        android:text="OK" />
+
+</RelativeLayout>

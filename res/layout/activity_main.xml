@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/buttonMainAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="Add" />
+    
+    <ExpandableListView
+        android:id="@+id/expand_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="#3FF"
+        android:layout_alignParentTop="true"
+       	android:layout_above="@id/buttonMainAdd"
+        android:layout_marginBottom="5dp" />
+
+</RelativeLayout>
+
